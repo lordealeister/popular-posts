@@ -1,7 +1,7 @@
 {
-    "name": "studiovisual/starter-plugin",
+    "name": "lordealeister/popular-posts",
     "type": "wordpress-plugin",
-    "description": "Starter plugin",
+    "description": "Enable view count on posts",
     "homepage": "https://studiovisual.com.br",
     "authors": [
         {
@@ -9,17 +9,17 @@
           "email": "atendimento@studiovisual.com.br",
           "homepage": "https://github.com/studiovisual/",
           "role": "Company"
+        },
+        {
+            "name": "Lorde Aleister",
+            "email": "lordealeister@gmail.com",
+            "homepage": "https://github.com/lordealeister/",
+            "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "StarterPlugin\\": "app/"
-        },
-        "files": [
-            "vendor/cmb2/cmb2/init.php"
-        ]
-    },
-    "require": {
-        "cmb2/cmb2": "^2.9"
+            "PopularPosts\\": "app/"
+        }
     }
 }

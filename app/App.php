@@ -1,19 +1,21 @@
 <?php
 
-namespace StarterPlugin;
+namespace PopularPosts;
 
-use StarterPlugin\Controllers\Admin;
+use PopularPosts\Controllers\Single;
 
 Class App {
     
     // Plugin name
-    static $name = 'Starter plugin';
+    static $name = 'Popular posts';
     // Plugin path
-    static $path = WP_PLUGIN_DIR . '/starter-plugin';
+    static $path = WP_PLUGIN_DIR . '/popular-posts';
 
     public function __construct() {
+        require_once(self::$path . '/app/helpers.php');
+
         // Controllers
-       new Admin;
+       new Single;
     }
 
 }
