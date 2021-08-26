@@ -2,6 +2,7 @@
 
 namespace PopularPosts;
 
+use PopularPosts\Controllers\Admin\Posts;
 use PopularPosts\Controllers\Admin\Settings;
 use PopularPosts\Controllers\Single;
 
@@ -19,6 +20,7 @@ Class App {
         \add_action('init', array($this, 'loadTextdomain'));
 
         // Controllers
+        new Posts;
         new Settings;
         new Single;
     }
