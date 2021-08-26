@@ -3,6 +3,7 @@
 namespace PopularPosts\Controllers\Admin;
 
 use PopularPosts\App;
+use PopularPosts\Helpers\Options;
 
 Class Settings {
 	
@@ -44,6 +45,22 @@ Class Settings {
             'default'        => false,
             'active_value'   => true,
             'inactive_value' => false,
+        ]);
+
+        $page->add_field([
+            'id'              => 'cookie_expire',
+            'name'            => __('Cookie expiration time', App::$domain),
+            'desc'            => __('Time the view cookie will expire, in days', App::$domain),
+            'type'            => 'text',
+            'default'         => '30',
+            'sanitization_cb' => 'absint',
+            'escape_cb'       => 'absint',
+            'attributes'      => [
+                'type'    => 'number',
+                'min'     => 1,
+                'pattern' => '\d*',
+                'value'   => !empty(Options::get('cookie_expire')) ? Options::get('cookie_expire') : 30,
+            ],
         ]);
     }
 

@@ -9,7 +9,7 @@ Class Single {
 	
 	public function __construct() {
         if(empty(Options::get('ajax_track'))):
-            add_action('wp_head', array($this, 'trackViews'), 10, 0);
+            add_action('wp', array($this, 'trackViews'), 10, 0);
             remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
         else:
             add_action('wp_ajax_' . App::$domain . '/track_view', array($this, 'trackViews'), 10, 0);

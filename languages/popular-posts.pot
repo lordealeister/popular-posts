@@ -4,11 +4,14 @@ msgstr ""
 "Language: \n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"POT-Creation-Date: 2021-08-26 16:10+0000\n"
+"POT-Creation-Date: 2021-08-26 20:35+0000\n"
 "X-Generator: Loco https://localise.biz/"
 
 msgid "Enable ajax"
 msgstr ""
 
 msgid "Counts views via ajax. Enable if the site uses any type of cache"
+msgstr ""
+
+msgid "Time the view cookie will expire, in days"
 msgstr ""
