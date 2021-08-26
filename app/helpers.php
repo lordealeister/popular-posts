@@ -1,5 +1,7 @@
 <?php
 
+use PopularPosts\Helpers\Options;
+
 /**
  * set_post_view Add view count to post
  *
@@ -12,6 +14,11 @@ function set_post_view(int $post_id = 0): void {
     if(empty($post_id))
         return;
 
+    $cookie = isset($_COOKIE['post_' . $post_id]) ? $_COOKIE['post_' . $post_id] : '';
+
+    if(!empty($cookie))
+        return;
+
     $countKey = 'views_count';
     $count = get_post_meta($post_id, $countKey, true);
      
@@ -20,6 +27,7 @@ function set_post_view(int $post_id = 0): void {
     else
         $count++;
         
+    setcookie('post_' . $post_id, true, time() + 60 * 60 * 24 * (!empty(Options::get('cookie_expire')) ? Options::get('cookie_expire') : 30));
     update_post_meta($post_id, $countKey, $count);
 }
 
