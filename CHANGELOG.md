@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.0](https://github.com/lordealeister/popular-posts/tree/1.0.0) (2021-08-26)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/0.0.1...1.0.0)
+
 ## [0.0.1](https://github.com/lordealeister/popular-posts/tree/0.0.1) (2021-08-19)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/0196b042b6968507276f6586b26d3eb743d3ce46...0.0.1)
