@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/lordealeister/popular-posts/tree/1.1.0) (2021-08-27)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.0.0...1.1.0)
+
+**Merged pull requests:**
+
+- Change includes and add filter [\#1](https://github.com/lordealeister/popular-posts/pull/1) ([lordealeister](https://github.com/lordealeister))
+
 ## [1.0.0](https://github.com/lordealeister/popular-posts/tree/1.0.0) (2021-08-26)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/0.0.1...1.0.0)
