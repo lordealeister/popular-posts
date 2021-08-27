@@ -12,12 +12,10 @@ Class App {
     static $name = 'Popular posts';
     // Plugin domain
     static $domain = 'popular-posts';
-    // Plugin path
-    static $path = WP_PLUGIN_DIR . '/popular-posts';
 
     public function __construct() {
-        require_once(self::$path . '/app/helpers.php');
-        \add_action('init', array($this, 'loadTextdomain'));
+        require_once('helpers.php');
+        add_action('init', array($this, 'loadTextdomain'));
 
         // Controllers
         new Posts;
@@ -31,7 +29,10 @@ Class App {
      * @return void
      */
     function loadTextdomain(): void {
-        \load_plugin_textdomain(self::$domain, false, self::$domain . '/languages'); 
+        load_plugin_textdomain(self::$domain, false, self::$domain . '/languages'); 
+
+        if(!is_textdomain_loaded(self::$domain))
+            load_textdomain(self::$domain, dirname(__FILE__) .  '/../languages/popular-posts-pt_BR.mo');
     }
 
 }

@@ -45,7 +45,13 @@ Class Single {
      * @return void
      */
     function enqueueAssets(): void {
-        \wp_enqueue_script(App::$domain, plugins_url('../../assets/scripts/popular-posts-track.js', __FILE__), [], null, false);
+        \wp_enqueue_script(
+            App::$domain, 
+            apply_filters(App::$domain . '/settings/url', plugin_dir_url(dirname(__DIR__, 1))) . 'assets/scripts/popular-posts-track.js',
+            [],
+            null, 
+            false
+        );
 
         \wp_localize_script(
             App::$domain, 
