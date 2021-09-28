@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/lordealeister/popular-posts/tree/1.2.1) (2021-09-28)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.0...1.2.1)
+
+**Merged pull requests:**
+
+- Fix action break page load [\#3](https://github.com/lordealeister/popular-posts/pull/3) ([lordealeister](https://github.com/lordealeister))
+
 ## [1.2.0](https://github.com/lordealeister/popular-posts/tree/1.2.0) (2021-09-28)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.1.0...1.2.0)
