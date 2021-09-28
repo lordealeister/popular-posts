@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/lordealeister/popular-posts/tree/1.2.0) (2021-09-28)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.1.0...1.2.0)
+
+**Merged pull requests:**
+
+- Add sortable column [\#2](https://github.com/lordealeister/popular-posts/pull/2) ([lordealeister](https://github.com/lordealeister))
+
 ## [1.1.0](https://github.com/lordealeister/popular-posts/tree/1.1.0) (2021-08-27)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.0.0...1.1.0)
