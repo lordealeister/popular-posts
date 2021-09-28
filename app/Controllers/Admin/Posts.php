@@ -46,6 +46,9 @@ Class Posts {
     }
 
     function columnOrderby($vars) {
+        if(!is_admin())
+            return $vars;    
+            
         if(!isset($vars['orderby']) || (isset($vars['orderby']) && App::$domain . '_views' == $vars['orderby'])):
             $vars = array_merge($vars, array(
                 'meta_key' => 'views_count',
