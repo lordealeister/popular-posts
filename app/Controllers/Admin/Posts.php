@@ -50,11 +50,9 @@ Class Posts {
             return $vars;    
             
         if(!isset($vars['orderby']) || (isset($vars['orderby']) && App::$domain . '_views' == $vars['orderby'])):
-            $vars = array_merge($vars, array(
-                'meta_key'  => 'views_count',
-                'meta_type' => 'NUMERIC',
-                'orderby'   => 'meta_value_numeric',
-            ));
+            $vars['meta_key']  = 'views_count';
+            $vars['meta_type'] = 'NUMERIC';
+            $vars['orderby']   = 'meta_value_num';
         endif;
 
         return $vars;
