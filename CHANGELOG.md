@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/lordealeister/popular-posts/tree/1.2.3) (2021-09-29)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.2...1.2.3)
+
+**Merged pull requests:**
+
+- Fix orderby numeric type [\#5](https://github.com/lordealeister/popular-posts/pull/5) ([lordealeister](https://github.com/lordealeister))
+
 ## [1.2.2](https://github.com/lordealeister/popular-posts/tree/1.2.2) (2021-09-29)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.1...1.2.2)
