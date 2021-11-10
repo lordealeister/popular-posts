@@ -28,7 +28,7 @@ Class Single {
         if(wp_doing_ajax()):
             $post_id = $_POST['id'];
         else:
-            if(!is_singular('post')) 
+            if(!is_single()) 
                 return;
             
             if(empty($post_id))
