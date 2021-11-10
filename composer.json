@@ -31,11 +31,9 @@
         "abuyoyo/cmb2-switch-button": "^1.2"
     },
     "extra": {
-		"installer-paths": {
-			"vendor/{$name}/": [
-                "cmb2/cmb2",
-                "abuyoyo/cmb2-switch-button"
-            ]
-		}
-	} 
+        "installer-paths": {
+            "vendor/cmb2/cmb2": ["cmb2/cmb2"],
+            "vvendor/abuyoyo/cmb2-switch-button": ["abuyoyo/cmb2-switch-button"]
+        }
+    }
 }
