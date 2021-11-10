@@ -28,8 +28,7 @@
     },
     "require": {
         "cmb2/cmb2": "^2.9",
-        "abuyoyo/cmb2-switch-button": "^1.2",
-        "composer/installers": "^2.0"
+        "abuyoyo/cmb2-switch-button": "^1.2"
     },
     "extra": {
 		"installer-paths": {
