@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/lordealeister/popular-posts/tree/1.3.0) (2021-11-10)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.3...1.3.0)
+
+**Merged pull requests:**
+
+- Fix to count all post types [\#6](https://github.com/lordealeister/popular-posts/pull/6) ([lordealeister](https://github.com/lordealeister))
+
 ## [1.2.3](https://github.com/lordealeister/popular-posts/tree/1.2.3) (2021-09-29)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.2...1.2.3)
