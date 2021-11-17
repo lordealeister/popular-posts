@@ -3,7 +3,7 @@
 Plugin Name:  Popular posts
 Plugin URI:   https://www.studiovisual.com.br/
 Description:  Enable view count on posts
-Version:      1.3.0
+Version:      1.3.1
 Author:       Lorde Aleister
 Author URI:   https://github.com/lordealeister/
 Text Domain:  popular-posts
