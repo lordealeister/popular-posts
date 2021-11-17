@@ -1,6 +1,14 @@
 # Changelog
 
-## [1.3.0](https://github.com/lordealeister/popular-posts/tree/1.3.0) (2021-11-10)
+## [1.3.1](https://github.com/lordealeister/popular-posts/tree/1.3.1) (2021-11-17)
+
+[Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.3.0...1.3.1)
+
+**Merged pull requests:**
+
+- Fix orderby and add license file [\#7](https://github.com/lordealeister/popular-posts/pull/7) ([lordealeister](https://github.com/lordealeister))
+
+## [1.3.0](https://github.com/lordealeister/popular-posts/tree/1.3.0) (2021-11-11)
 
 [Full Changelog](https://github.com/lordealeister/popular-posts/compare/1.2.3...1.3.0)
 
