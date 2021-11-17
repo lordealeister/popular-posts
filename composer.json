@@ -3,6 +3,7 @@
     "type": "wordpress-plugin",
     "description": "Enable view count on posts",
     "homepage": "https://studiovisual.com.br",
+    "license": "MIT",
     "authors": [
         {
           "name": "Studio Visual",

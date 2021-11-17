@@ -75,7 +75,7 @@ Class Posts {
 
     if(!isset($vars['orderby']) || (isset($vars['orderby']) && App::$domain . '_views' == $vars['orderby'])):
       $vars['meta_type'] = 'NUMERIC';
-      $vars['orderby']   = 'meta_value';
+      $vars['orderby']   = 'meta_value_num';
       $vars['meta_query'] = array(
         'relation' => 'OR',
         array( 
